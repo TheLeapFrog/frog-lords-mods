@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an idea for a Frog Lord's addon
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which addon?
+      options: [Diablo Orbs, Core, Character Sheet, Bags, Vendor, Talents, Quests, Loot, Skins, Profession Guide, Dungeon Guide, Wishlist, Arcade, Bucket o' Jokes, Whole suite / new addon]
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the feature and how you'd use it.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or examples (optional)
